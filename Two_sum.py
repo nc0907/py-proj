@@ -19,7 +19,6 @@ def twoSum(nums, target):
         if(val in dict_of_x):
             return [dict_of_x[val],i]
         dict_of_x[nums[i]]=i
-        print (dict_of_x)
         i+=1
 nums=[1,2,3,4,5,6,7]
 target=9
